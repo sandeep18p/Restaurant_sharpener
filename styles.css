@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     padding: 20px;
 }
 
-/* Form Styles */
+
 form {
     background-color: #fff;
     padding: 20px;
@@ -58,7 +58,7 @@ form button:hover {
     background-color: #45a049;
 }
 
-/* Tables Section */
+
 #tables {
     margin-top: 40px;
 }
@@ -90,7 +90,7 @@ form button:hover {
     color: #333;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 600px) {
     form {
         width: 100%;
