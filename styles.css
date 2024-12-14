@@ -1,0 +1,98 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+form input, form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+form button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Tables Section */
+#tables {
+    margin-top: 40px;
+}
+
+#tables h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+#tables h2 {
+    font-size: 20px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#tables div {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+#tables div p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+}
